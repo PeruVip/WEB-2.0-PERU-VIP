@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Otros Servicios</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" href="img/logo.ico">
     <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@700&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet" />
@@ -38,10 +39,10 @@
         <p>Soporte 24/7</p>
     </div>
     <div class="hero" id="up">
-        <div class="img-hero">
+        <div data-aos="fade-up" class="img-hero">
             <img src="img/hero-otros.png" alt="" />
         </div>
-        <div class="text-hero">
+        <div data-aos="fade-right"  class="text-hero">
             <h4>PERU VIP</h4>
             <h1 class="animate__animated">Las mejores paltaformas de streaming
             </h1>
@@ -85,7 +86,7 @@
     </div>
     <section class="cont__planes">
        
-        <div class="plan-otros plan-disney">
+        <div data-aos="zoom-out-right" class="plan-otros plan-disney">
             <img src="img/otros/disney.png" alt="">
             <div class="cont-dias">
                 
@@ -99,7 +100,7 @@
         </div>
 
 
-        <div class="plan-otros plan-netflix">
+        <div data-aos="zoom-out-left" class="plan-otros plan-netflix">
             <img src="img/otros/netflix.png" alt="">
             <div class="cont-dias">
             </div>
@@ -111,7 +112,7 @@
             </div>
         </div>
 
-        <div class="plan-otros plan-prime">
+        <div data-aos="zoom-out-right" class="plan-otros plan-prime">
             <img src="img/otros/prime.png" alt="">
             <div class="cont-dias">
             </div>
@@ -123,7 +124,7 @@
             </div>
         </div>
 
-        <div class="plan-otros plan-star">
+        <div data-aos="zoom-out-left" class="plan-otros plan-star">
             <img src="img/otros/star.png" alt="">
             <div class="cont-dias">
             </div>
@@ -135,7 +136,7 @@
             </div>
         </div>
 
-        <div class="plan-otros plan-hbo">
+        <div data-aos="zoom-out-right" class="plan-otros plan-hbo">
             <img src="img/otros/hbo.png" alt="">
             <div class="cont-dias">
             </div>
@@ -147,7 +148,7 @@
             </div>
         </div>
 
-        <div class="plan-otros plan-youtube">
+        <div data-aos="zoom-out-left" class="plan-otros plan-youtube">
             <img src="img/otros/youtube.png" alt="">
             <div class="cont-dias">
             </div>
@@ -159,7 +160,7 @@
             </div>
         </div>
 
-        <div class="plan-otros plan-spotify">
+        <div data-aos="zoom-out-right" class="plan-otros plan-spotify">
             <img src="img/otros/spotify.png" alt="">
             <div class="cont-dias">
             </div>
@@ -185,7 +186,7 @@
 </div>
 
 <div class="cont-ofertas">
-    <div class="plan-otros plan-disney">
+    <div data-aos="zoom-out-right" class="plan-otros plan-disney">
         <img src="img/otros/disney-of.png" alt="">
         <div class="cont-dias">
             
@@ -197,7 +198,7 @@
             <a href="https://wa.me/+51932584338"><i class="fas fa-shopping-cart"></i>Comprar</a>
         </div>
     </div>
-    <div class="plan-otros plan-prime">
+    <div data-aos="zoom-out-left"  class="plan-otros plan-prime">
         <img src="img/otros/prime-of.png" alt="">
         <div class="cont-dias">
         </div>
@@ -209,19 +210,19 @@
         </div>
     </div>
 
-    <div class="plan-otros plan-star">
+    <div data-aos="zoom-out-right" class="plan-otros plan-star">
         <img src="img/otros/star-of.png" alt="">
         <div class="cont-dias">
         </div>
         <div class="txt-dias">
            <span>90 </span><br> <p> Dias</p>
         </div>
-        <div class="btn-comprar-otros">
+        <div  class="btn-comprar-otros">
             <a href="https://wa.me/+51932584338"><i class="fas fa-shopping-cart"></i>Comprar</a>
         </div>
     </div>
 
-    <div class="plan-otros plan-hbo">
+    <div data-aos="zoom-out-left" class="plan-otros plan-hbo">
         <img src="img/otros/hbo-of.png" alt="">
         <div class="cont-dias">
         </div>
@@ -289,5 +290,11 @@
 </body>
 <script src="js/main.js"></script>
 <script src="js/main-otros.js"></script>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1200,
+      once: true
+    });
+  </script>
 </html>
