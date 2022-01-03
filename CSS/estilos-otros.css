@@ -4,14 +4,21 @@
   margin: 0;
   padding: 0;
 }
-.txt-planes-otros{
+
+.hero2 {
+  background-image: url(/img/fondo2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.txt-planes-otros {
   text-align: center;
   text-transform: uppercase;
   color: red;
   font-size: 1.5em;
   margin-top: 20px;
 }
-.cont__planes{
+.cont__planes {
   width: 100%;
   padding: 25px;
   display: flex;
@@ -21,58 +28,56 @@
   background-position: center;
   background-size: cover;
 }
-.plan-otros{
+.plan-otros {
   width: 260px;
   height: 330px;
   border-radius: 10px;
   position: relative;
   overflow: hidden;
   margin-bottom: 15px;
-   transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
-.plan-otros:hover{
+.plan-otros:hover {
   transform: scale(1.05);
   box-shadow: #1f1e1e 6px 4px 10px 0px;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
-@media(max-width:768px){
-.plan-otros:hover{
-  transform: none;
-  box-shadow: none;
+@media (max-width: 768px) {
+  .plan-otros:hover {
+    transform: none;
+    box-shadow: none;
+  }
 }
-}
-.cont-dias{
+.cont-dias {
   position: absolute;
   top: -15px;
   right: -55px;
   background-color: #fff;
-  width:165px;
+  width: 165px;
   height: 81px;
   transform: rotate(45deg);
 }
-.txt-dias{
+.txt-dias {
   position: absolute;
   top: 6px;
   right: 7px;
   font-weight: bold;
   text-align: center;
-  line-height: .8;
+  line-height: 0.8;
   font-family: "Lato", sans-serif;
- 
 }
-.txt-dias p{
-  font-size:1.5em;
-  }
-.txt-dias span{
-font-size:2.5em;
+.txt-dias p {
+  font-size: 1.5em;
 }
-.btn-comprar-otros{
+.txt-dias span {
+  font-size: 2.5em;
+}
+.btn-comprar-otros {
   position: absolute;
-  bottom:15px;
+  bottom: 15px;
   right: 30%;
-
 }
-.btn-comprar-otros a{
+.btn-comprar-otros a {
   background: #fff;
   cursor: pointer;
   padding: 5px 10px;
@@ -82,64 +87,113 @@ font-size:2.5em;
   outline: none;
   transition: all 0.3s ease;
 }
-.btn-comprar-otros a:hover{
+.btn-comprar-otros a:hover {
   background: rgb(224, 21, 65);
   color: #fff;
 }
 
-.btn-comprar-otros i{
+.btn-comprar-otros i {
   margin-right: 5px;
   color: rgb(19, 211, 35);
 }
 /* Colores de  Fondo de las Targetas*/
-.plan-disney{
-  background-image: linear-gradient(to bottom, #0a0b30, #101945, #18265c, #1f3473, #25428c);
+.plan-disney {
+  background-image: linear-gradient(
+    to bottom,
+    #0a0b30,
+    #101945,
+    #18265c,
+    #1f3473,
+    #25428c
+  );
 }
-.plan-netflix{
+.plan-netflix {
   background: #000;
 }
 
-.plan-prime{
-  background-image: linear-gradient(to right top, #012a62, #003973, #004983, #005993, #0069a3, #0076ae, #0083b9, #0890c4, #139cce, #1da8d7, #28b4e0, #33c0e9);
+.plan-prime {
+  background-image: linear-gradient(
+    to right top,
+    #012a62,
+    #003973,
+    #004983,
+    #005993,
+    #0069a3,
+    #0076ae,
+    #0083b9,
+    #0890c4,
+    #139cce,
+    #1da8d7,
+    #28b4e0,
+    #33c0e9
+  );
 }
-.plan-star{
-  background-image: linear-gradient(to bottom, #941056, #890f56, #7f0f56, #740f55, #691054, #5e1152, #52124f, #47124c, #381247, #2a1141, #1d103b, #100c33);
+.plan-star {
+  background-image: linear-gradient(
+    to bottom,
+    #941056,
+    #890f56,
+    #7f0f56,
+    #740f55,
+    #691054,
+    #5e1152,
+    #52124f,
+    #47124c,
+    #381247,
+    #2a1141,
+    #1d103b,
+    #100c33
+  );
 }
-.plan-hbo{
-  background-image: linear-gradient(to right, #8031bc, #7b30bc, #752ebd, #6f2dbd, #692cbe, #652bbf, #602bbf, #5b2ac0, #5729c1, #5329c1, #4f28c2, #4a28c3);
+.plan-hbo {
+  background-image: linear-gradient(
+    to right,
+    #8031bc,
+    #7b30bc,
+    #752ebd,
+    #6f2dbd,
+    #692cbe,
+    #652bbf,
+    #602bbf,
+    #5b2ac0,
+    #5729c1,
+    #5329c1,
+    #4f28c2,
+    #4a28c3
+  );
 }
-.plan-spotify{
-  background: #20D860;
+.plan-spotify {
+  background: #20d860;
 }
-.plan-youtube{
+.plan-youtube {
   background: red;
 }
-.plan-disney .txt-dias{
-color: #101945;
+.plan-disney .txt-dias {
+  color: #101945;
 }
-.plan-prime .txt-dias{
+.plan-prime .txt-dias {
   color: #004983;
-  }
-.plan-star .txt-dias{
+}
+.plan-star .txt-dias {
   color: #7f0f56;
 }
-.plan-hbo .txt-dias{
+.plan-hbo .txt-dias {
   color: #5b2ac0;
 }
-.plan-youtube .txt-dias{
-  color: red
+.plan-youtube .txt-dias {
+  color: red;
 }
-.plan-spotify .txt-dias{
-  color: #20D860
+.plan-spotify .txt-dias {
+  color: #20d860;
 }
-.txt-ofertas{
+.txt-ofertas {
   font-size: 1.5em;
   color: red;
   text-align: center;
   text-transform: uppercase;
   margin-top: 20px;
 }
-.cont-ofertas{
+.cont-ofertas {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
