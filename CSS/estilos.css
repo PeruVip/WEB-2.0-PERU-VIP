@@ -832,10 +832,10 @@ ul {
   background-size: cover;
 }
 .img__estreno__p {
-  background-image: url(https://drive.google.com/file/d/14U_qsJL5B3Bf9hrk27mzINskkvth8m8O/view?usp=sharing);
+  background-image: url(/img/doctorstrange.jpg);
 }
 .img__estreno__s {
-  background-image: url(https://drive.google.com/file/d/1eHgI9JqkHyMNJzlKWp6VF9Y_aqAks4IJ/view?usp=sharing);
+  background-image: url(/img/peaky.jpg);
 }
 /*FIN DE ESTRENOS*/
 .first__footer {
