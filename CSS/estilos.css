@@ -398,19 +398,20 @@ ul {
 }
 .offerta {
   position: absolute;
-  top: 21px;
-  right: -52px;
+  top: 14px;
+  right: -49px;
   transform: rotateZ(40deg);
   width: 200px;
   font-size: 15px;
-  background: #000;
+  background: rgb(243, 2, 2);
   letter-spacing: 2px;
   padding: 10px;
   text-shadow: none;
   font-weight: bold;
+  border: dotted yellow 4px;
 }
 .offerta i {
-  color: red;
+  color: rgb(7, 4, 4);
 }
 .plan__3 {
   background-image: linear-gradient(
@@ -831,10 +832,10 @@ ul {
   background-size: cover;
 }
 .img__estreno__p {
-  background-image: url(https://drive.google.com/uc?export=download&id=1hwuf9G9fqzCxRZS9lXUbeSXZpM9CoiLt);
+  background-image: url(https://drive.google.com/file/d/14U_qsJL5B3Bf9hrk27mzINskkvth8m8O/view?usp=sharing);
 }
 .img__estreno__s {
-  background-image: url(/img/estrenos/calamar.jpeg);
+  background-image: url(https://drive.google.com/file/d/1eHgI9JqkHyMNJzlKWp6VF9Y_aqAks4IJ/view?usp=sharing);
 }
 /*FIN DE ESTRENOS*/
 .first__footer {
