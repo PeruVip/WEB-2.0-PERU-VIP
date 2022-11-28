@@ -2,474 +2,404 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>IP-TV PERU VIP </title>
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="icon" href="img/logo.ico">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <link rel="stylesheet" href="CSS/estilos.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/Logo2.ico">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="JS/bootstrap.min.js">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <script src="JS/scrollreveal.js"></script>
+    <!--FUENTES -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=K2D:wght@500&display=swap');
+    </style>
+    <title>Brita Home Care</title>
+    <!--Animates-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
-  
-
-  <a href="#up" class="btn__up">
-    <i class="fas fa-chevron-up"></i>
-  </a>
-
-  <div class="float__redes" id="float__redes">
-    <a class="ico-whatsapp" target="_blank" href="https://wa.me/+51932584338"><i class="fab fa-whatsapp"></i></a>
-    <a class="ico-face" target="_blank"
-      href="http://m.me/106014841397595"><i
-        class="fab fa-facebook-messenger"></i></i></a>
-  </div>
-
-  <div id="btn__redes">
-    <i class="fas fa-angle-right"></i>
-  </div>
-
-  <div class="redes">
-    <p>Contacto <i class="fas fa-hand-point-right"></i></p>
-    <a href="https://www.facebook.com/TV-Per%C3%BA-Vip-106014841397595/"><i class="fab fa-facebook"></i></a>
-    <a href="https://wa.me/+51932584338"><i class="fab fa-whatsapp"></i></a>
-    <a href="http://m.me/106014841397595"><i class="fab fa-facebook-messenger"></i></a>
-    <p>Soporte 24/7</p>
-  </div>
-  <div  class="hero" id="up">
-    <div data-aos="fade-up"  class="img-hero">
-      <img src="img/hero.png" alt="" />
+    <div class="cont-consultas">
+        <span>For a Free Consultation 24/7 Call: 703-869-5537</span>
     </div>
-    <div class="text-hero">
-      <h4>PERU VIP</h4>
-      <h1 class="animate__animated">televisión en vivo para tu hogar</h1>
-      <p>
-        Somos el servicio de IPTV con mayor estabilidad, contenido y la mejor
-        experiencia de usuario. Servidores privados y dedicados para brindar
-        la mayor estabilidad en su programacion.
-      </p>
-      <a href="https://chat.whatsapp.com/HLDgDbB1ZWH7ypt0VilwGs"><i class="fab fa-whatsapp"></i>Grupo de Whatsapp</a>
+    <!--Inicio de menu escritorio-->
+
+    <nav class="cont-nav-pc cont-nav-mobil ocultar-menu">
+
+        <div class="sombra">
+            <a href="">
+                <div class="cont-logo">
+                    <img src="img/Logo.png" alt="logo">
+                </div>
+            </a>
+
+            <ul class="cont-menu">
+                <a href="#home" id="btn-home">
+                    <li>Home </li>
+                </a>
+                <a href="#nosotros" id="btn-about">
+                    <li>About Us</li>
+                </a>
+                <a href="#our" id="btn-our">
+                    <li>Our Team</li>
+                </a>
+                <a href="#preguntas" id="btn-faq">
+                    <li>FAQ</li>
+                </a>
+                <a href="#servicios" id="btn-serv">
+                    <li>Care</li>
+                </a>
+                <a href="#galeria" id="btn-gal">
+                    <li>Roles</li>
+                </a>
+                <a href="#contacto" id="btn-cont">
+                    <li>Contact</li>
+                </a>
+
+            </ul>
+        </div>
+    </nav>
+    <!--Fin de menu Escritorio-->
+    <!--INICIO MENU MOBIL-->
+
+    <div class="cont-btn-menu">
+
+        <i id="btn-menu" class="fa-solid fa-bars"></i>
+        <i id='btn_ocultar' class="fa-solid fa-xmark"></i>
     </div>
-  </div>
 
-  <!-- inicio de menu de navegacion en mobil  -->
-  <nav id="menu__mobil" class="ocultar-menu container-menu-mobil">
-    <ul class="menu-mobil">
-      <div class="cont-logo-menu">
-        <img src="img/logo.png" alt="" />
-      </div>
-      <li><a href="index.html">Inicio</a></li>
-      <li><a href="#" class="disabled">Guia</a></li>
-      <li>
-        <a class="disabled" href="#">Reseller</a>
-      </li>
-      <li><a href="otros.html" class="">Otros Servicios</a></li>
-    </ul>
-  </nav>
-  <div id="ico__menu" class="cont-ico-menu">
-    <i class="fas fa-bars"></i>
-  </div>
-  <div id="ico__menux" class="cont-ico-menu-2">
-    <i class="fas fa-times"></i>
-  </div>
+    <!--FIN MENU MOBIL-->
 
-  <!-- fin de menu de navegacion en mobil -->
+    <!--INICIO BANNER-->
+    <div class="cont-banner" id="home">
+        <div class="cont-txt-banner">
+            <div class="txt-banner">
+                <h1>You took care of us, now we take care of you.</h1>
+                <p>Welcome to our Geriatric Care Center. A place specially designed to welcome the dependent or
+                    independent older adult.</p>
+            </div>
+            <div class="logo-banner">
+                <img src="img/Logo2.png" alt="logo" class="animate__animated  animate__fadeInUp">
+                <p>Brita Home Care</p>
+            </div>
 
-  <!--INICIO DE PLANES-->
-  <section class="container__planes">
-    <h1>Suscripción</h1>
-    <p>Sin contratos y con renovacion automatica</p>
-    <div class="planes">
-      <div data-aos="zoom-in" class="plan plan__1">
-        <h3>Plan Basico <br><small>30 Dias</small></h3>
-        <ul>
-          <li><i class="fas fa-tv"></i>+200 Canales</li>
-          <li><i class="far fa-play-circle"></i>+500 Peliculas <small>(no estrenos)</small></li>
-          <li><i class="fas fa-film"></i>+50 Series</li>
-          <li style="text-decoration: line-through;"><i class="far fa-star"></i>Paquete Premium</li>
-          
-          <li style="text-decoration: line-through;">
-            <i class="far fa-eye"></i>Pack Adultos <small>(Opcional)</small>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <h2>1 Dispositivo S/. 14<small>.90</small></h2>
-          </li>
-          <li>
-            <h2>2 Dispositivo S/. 16<small>.90</small></h2>
-          </li>
-          <li>
-            <h2>3 Dispositivo S/. 19<small>.90</small></h2>
-          </li>
-        </ul>
-        <div class="btn-suscribir">
-          <a href="https://wa.link/9y99mj">Comprar Por WhatsApp</a>
         </div>
-      </div>
-      <div data-aos="zoom-in" class="plan plan__2">
-        <h3>Plan Ultra <br><small>30 Dias</small></h3>
-        
-        <ul>
-          <li><i class="fas fa-tv"></i>+5000 Canales <small>SD - HD - FHD</small></li>
-          <li><i class="far fa-play-circle"></i>+7000 Peliculas <small>FHD (estrenos)</small></li>       
-          <li><i class="fas fa-film"></i>Peliculas y Series</li>
-          <li><i class="far fa-star"></i>Paquete Premium</li>
-          <li>
-            <i class="far fa-eye"></i>Pack Adultos <small>(Opcional)</small>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <h2>1 Dispositivo S/. 19<small>.90</small></h2>
-          </li>
-          <li>
-            <h2>2 Dispositivo S/. 22<small>.90</small></h2>
-          </li>
-          <li>
-            <h2>3 Dispositivo S/. 24<small>.90</small></h2>
-          </li>
-        </ul>
-        <div class="btn-suscribir">
-          <a href="https://wa.link/gqxz4d">Comprar Por WhatsApp</a>
-        </div>
-        <div class="offerta">
-          <i class="fab fa-hotjar"></i>
-          HOT - OFF
-        </div>
-      </div>
-      <div data-aos="zoom-in"  class="plan plan__3">
-        <h3>Plan Medio <br><small>30 Dias</small></h3>
-        <ul>
-          <li><i class="fas fa-tv"></i>+500 Canales</li>
-          <li><i class="far fa-play-circle"></i>+800 Peliculas <small>(estrenos)</small></li>
-          <li><i class="fas fa-film"></i>+100 Series</li>
-          <li><i class="far fa-star"></i>Paquete Premium</li>
-          <li style="text-decoration: line-through;">
-            <i class="far fa-eye"></i>Pack Adultos <small>(Opcional)</small>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <h2>1 Dispositivo S/. 17<small>.90</small></h2>
-          </li>
-          <li>
-            <h2>2 Dispositivo S/. 19<small>.90</small></h2>
-          </li>
-          <li>
-            <h2>3 Dispositivo S/. 22<small>.90</small></h2>
-          </li>
-        </ul>
-        <div class="btn-suscribir">
-          <a href="https://wa.link/msuk2j">Comprar Por WhatsApp</a>
-        </div>
-      </div>
-      <!--
-        <div class="plan plan__4">
-        <h3>6 MES</h3>
-        <ul>
-          <li><i class="fas fa-tv"></i>+1500 Canales</li>
-          <li><i class="far fa-play-circle"></i>SD, HD Y FHD</li>
-          <li><i class="far fa-star"></i>Paquete Premium</li>
-          <li><i class="fas fa-film"></i>Peliculas y Series</li>
-          <li>
-            <i class="far fa-eye"></i>Pack Adultos <small>(Opcional)</small>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <h2>1 Dispositivo S/. <small>.90</small></h2>
-          </li>
-          <li>
-            <h2>2 Dispositivo S/. 22<small>.90</small></h2>
-          </li>
-          <li>
-            <h2>3 Dispositivo S/. 24<small>.90</small></h2>
-          </li>
-        </ul>
-        <div class="btn-suscribir">
-          <a href="#">Suscribirme</a>
-        </div>
-      </div>
-        -->
 
 
     </div>
-  </section>
 
-  <!--FIN DE PLANES-->
+    <!--FIN BANNER-->
 
-  <!-- INICIO DE VOD -->
-  <section class="container___vod">
-    <div class="txt__vod">
-      <h1>contenido Vod</h1>
-      <p>
-        Contamos con peliculas de las Mejores plataformas de Streaming incluyendo estrenos en las mejores calidades.
-      </p>
-      <div class="cont__cards">
-        <div data-aos="fade-up-right" class="card card-0"></div>
-        <div data-aos="fade-up-right" class="card card-1"></div>
-        <div data-aos="fade-up-right" class="card card-2"></div>
-        <div data-aos="fade-up-left" class="card card-3"></div>
-        <div data-aos="fade-up-left" class="card card-4"></div>
-        <div data-aos="fade-up-left" class="card card-5"></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FIN DE VOD -->
-
-  <!-- INICIO DE COMPATIBLE -->
-  <section class="container__compatible">
-    <div class="cont__txt__compatible">
-      <h1>Compatible con Todos los Dispositivos</h1>
-      <p>Usa nuestra Propia aplicacion en Dispositivos Android</p>
-    </div>
-    <div class="img__compatible">
-      <img src="img/img-compatible.jpg" alt="" />
-    </div>
-  </section>
-  <!-- FIN DE COMPATIBLE -->
-
-  <!-- INICIO DE  INCLUIDOS -->
-  <section data-aos="fade-right" class="container__incluidos">
-    <div class="cont__txt__incluidos">
-      <h1>Paquetes Premium Incluidos</h1>
-      <p>
-        Tenemos los mejores paquetes Premium.
-      </p>
-    </div>
-    <div class="container__img__incluido">
-      <div class="img__incluido">
-        <img src="img/starplus2.svg" alt="" />
-      </div>
-      <div class="img__incluido">
-        <img src="img/hbopremium.svg" alt="" />
-      </div>
-      <div class="img__incluido">
-        <img src="img/showtimes.svg" alt="" />
-      </div>
-      <div class="img__incluido">
-        <img src="img/wwe.svg" alt="" />
-      </div>
-      <div class="img__incluido">
-        <img src="img/movistar+.svg" alt="" />
-      </div>
-    </div>
-    <div class="container__incluido2">
-      <div class="incluido2">
-        <img src="img/ppv.svg" alt="" />
-      </div>
-      <div class="incluido2">
-        <img src="img/canales24.svg" alt="" />
-      </div>
-      <div class="incluido2">
-        <img src="img/adultos.svg" alt="" />
-      </div>
-    </div>
-  </section>
-  <!-- FIN DE INCLUIDOS -->
-  <!-- Inicio de Deportes -->
-  <section class="container__deportes">
-    <div class="cont__tex__deportes">
-      <h1>Todos los Deportes y Pases Incluidos</h1>
-      <p>
-       Tenemos todos los Paquetes Deportivos para que no te pierdas ningun evento de deporte. 
-      </p>
-    </div>
-    <div class="cont__targetas__deportes">
-      <div class="targeta__deportes">
-        <div class="targeta">
-          <div class="targeta__front targeta1">
-          </div>
-          <div class="targeta__back back1">
-            <h1>beIN Sports</h1>
-            Mira todos tus deportes favoritos en vivo, incluyendo Copa Libertadores y Sudamericana, La Ligue 1 de
-            Francia, la Süper Lig de Turquía y más.
-          </div>
+    <!--INICIO DE NOSOTROS-->
+    <div class="cont-nosotros m-t" id="nosotros">
+        <div class="cont-img-nosotros">
+            <img src="img/img-nosotros.jpg" alt="imagen nosotros">
         </div>
-      </div>
+        <div class="cont-txt-nosotros">
+            <h1 class="nos-h">About Us</h1>
+            <div class="nos-p-one">
 
-      <div class="targeta__deportes">
-        <div class="targeta">
-          <div class="targeta__front targeta2">
-          </div>
-          <div class="targeta__back back2">
-            <h1>Fox Sports</h1>
-            Información de todo tipo de deporte incluyendo Fútbol Mexicano, Béisbol, NBA, Básquetbol, Fútbol Americano,
-            NFL, Tenis, Boxeo, automovilismo, Golf, WWE y mucho mas .
-          </div>
-        </div>
-      </div>
+                <p class="text1-nos"><span class="bold">W</span>e started this Health Care Company after 15 years of
+                    experience in Supporting the recovery and treatment of such beautiful people. This is more than a
+                    job, we take it as a challenge to help people overcome their health problems.</p>
 
-      <div class="targeta__deportes">
-        <div class="targeta">
-          <div class="targeta__front targeta3">
-          </div>
-          <div class="targeta__back">
-            <h1>ESPN</h1>
-            Lo último del mundo deportivo. todo tipo de deporte incluyendo Fútbol Mexicano, Fútbol Argentino, Fútbol
-            Italiano, Fútbol Aleman, UEFA Champions, y mucho mas.
-          </div>
-        </div>
-      </div>
+            </div>
+            <div class="nos-p-two">
+                <p><span class="bold">W</span>e provide more specialized, caregivers and involved care than a nursing
+                    home would or could offer. A
+                    home care aide can help release stress and allow time for a periodic break from taking care of a
+                    parent or Relative. </p>
 
-      <div class="targeta__deportes">
-        <div class="targeta">
-          <div class="targeta__front targeta4">
-          </div>
-          <div class="targeta__back">
-            <h1>UFC</h1>
-            Canal de Suscripcion de Latinoamerica transmitiendo Eventos en Vivo, Peleas Estelares, Entrenamientos y
-            Mucho mas.
-          </div>
+            </div>
         </div>
-      </div>
-
-      <div class="targeta__deportes">
-        <div class="targeta">
-          <div class="targeta__front targeta5">
-          </div>
-          <div class="targeta__back">
-            <h1>Directv Sports</h1>
-            Alimenta tu pasión por el deporte con la mejor programación.
-            Vive una experiencia única en fútbol, rugby, tenis, boxeo y otros deportes.
-          </div>
-        </div>
-      </div>
-
-      <div class="targeta__deportes">
-        <div class="targeta">
-          <div class="targeta__front targeta6">
-          </div>
-          <div class="targeta__back">
-            <h1>M. Deportes</h1>
-            es un canal de televisión deportivo peruano por suscripción junto con <span>Gol Perú</span>
-            transmitiendo todos los Deportes Nacionales y Mucho mas.
-          </div>
-        </div>
-      </div>
     </div>
 
-  </section>
-  <!-- Fin de deportes -->
+    <!--FIN DE NOSOTROS-->
 
-  <!-- Inicio de Estrenos -->
-
-
-  <section  class="container__estrenos">
-    <h1 class="title_estrenos">Estrenos en <span>PerúVip</span></h1>
-    <div class="estrenos">
-
-      <div class="peliculas">
-
-        <div class="txt__estreno">
-          <h1>Pelicula Recientemente Agregada</h1>
+    <!--INICIO DE OUR TEAM-->
+    <div class="cont-our" id="our">
+        <div class="cont-txt-our">
+            <h2>Our Team</h2>
         </div>
-        <div class="img__estreno__p">
+        <div class="our">
+            <ul>
+                <li><i class="fa-solid fa-user-shield"></i> <span> Screened for employment hi story, training, and criminal background.</span></li>
 
-        </div>
+                <li><i class="fa-solid fa-user-shield"></i> <span>Our Caregiver are cerlified after 40 hours initial training course.</span>
+                </li>
 
-      </div>
-      <div  class="series">
-        <div class="txt__estreno">
-          <h1>Serie Recientemente Agregada</h1>
-        </div>
-        <div class="img__estreno__s">
+                <li><i class="fa-solid fa-user-shield"></i><span>CPR and first aid training to enhance skills.</span></li>
 
+                <li><i class="fa-solid fa-user-shield"></i><span>Insured Against the liability and workers compensation for clients protection.</span></li>
+            </ul>
+                    <div class="img-our">
+                        <img src="img/img-our.jpg" alt="imagen team">
+                    </div>
         </div>
-      </div>
     </div>
-  </section>
-  <!-- INICIO DE FOOTER -->
 
-  <section class="first__footer">
-    <div class="part1__footer">
-      <span>Tv Perú Vip </span>
-      <p>es el nuevo servicio IPTV de uno de los favoritos de toda Latinoamérica, Tv Perú Vip.
-        Entregamos una lista de
-        canales Premium y asistencia con un equipo de soporte comprometido, dando una respuesta rápida y asistencia
-        continua a los clientes.</p>
-      <small>entretenimiento.premium.pe@gmail.com</small>
-    </div>
-    <div class="part2__footer">
-      <div class="img__footer">
-        <img src="img/logo.png" alt="">
-      </div>
-    </div>
-    <div class="part3__footer">
-      <h3>
-        Medios de pago para el Perú y Extrangero:
-      </h3>
-      <div class="img__footer3">
-        <div class="img">
-          <img src="https://drive.google.com/uc?export=download&id=1cN1bB3PnQVTkT30xEqDhh3ky_aod0UDt" alt="">
-        </div>
-        <div class="img">
-          <img src="https://drive.google.com/uc?export=download&id=1bLvZuOAzfzv4M7g0Y6oPcquFGhbOd2c-" alt="">
-        </div>
-        <div class="img">
-          <img src="https://drive.google.com/uc?export=download&id=1qMsu86elnCk_hf_5wbmWjw28pZ9Hns-U" alt="">
+
+    <!--FIN DE OUR TEAM-->
+
+
+
+    <!--INICIO POR QUE ELEGIRNOS-->
+    <div class="cont-porque">
+        <div class="txt-porque">
+            <h2>Why choose us?</h2>
+            <p>Our team is the most important asset.</p>
+            <small>Highest quality of care: Being a caregiver is one of the most prideful rewarding professions because
+                they are making a real difference in peoples live every day. We became part of our client’s lives. We
+                create a compassionate and understanding environment to help provide the highest quality of care to our
+                client’s and their families.</small>
         </div>
 
-      </div>
+        <div class="cont-icos-porque">
+            <div class="ico">
+                <i class="fa-solid fa-handshake"></i>
+                <h3>Family Ally</h3>
+                <p>Our caregivers partner with the family in the long-term care of their older adults.
+                </p>
+            </div>
+
+            <div class="ico">
+                <i class="fa-solid fa-people-arrows"></i>
+                <h3>Customized Assistance</h3>
+                <p>Our personal care assistants include mobility, hygiene and housekeeping support.
+                </p>
+            </div>
+        </div>
+
 
     </div>
-  </section>
-  <footer>
-    <small>
-      Copyright © 2022 TV Perú-Vip | Powered by TV Perú-Vip
-    </small>
-  </footer>
 
-  <!-- FIN DE FOOTER -->
+    <!--FIN PORQUE ELEGIRNOS-->
+
+    <!--INICIO PREGUTNAS FRECUENTES-->
+    <div class="cont-faq m-t" id="preguntas">
+        <div class="cont-preguntas">
+            <h2 class="title-qust">Frequent Questions</h2>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            What can home care do for you ?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Home Care is supportive care provided to your elderly or disabled
+                            family member in the comfort of your home. In other words, a professional attendant visits
+                            your relative on a regular basis to provide needed assistance.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Are your team trained to care for COVID-19 patients?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Yes, we have the training and personal protective equipment required
+                            to provide SAFE care and attention to patients with COVID-19.</div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+                            What are the characteristics of the home visit?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">The home visit is the service provided at the patient's home in
+                            order to detect, assess, support and monitor the health problems of the patient and his
+                            family, promoting their autonomy, reducing decompensation crises and improving the quality
+                            of life of patients.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cont-img-faq">
+            <img src="img/img-faq.jpg" alt="imagen">
+        </div>
+
+    </div>
+    <!--FIN  PREGUTNAS FRECUENTES-->
+
+    <!--inicio de servicios-->
+    <div class="cont-servicios m-t" id="servicios">
+        <div class="txt-servicios">
+            <h2>Private duty
+                Personal care</h2>
+            <p>Below is a summary of the services provided by our trained and experienced caregivers.</p>
+        </div>
+        <div class="servicios">
+            <div class="img-servicios">
+                <div class="icos-servi">
+                    <img class="ico-servi" src="img/Logo2.png" alt="">
+                    <img class="img-servi" src="img/img-servicios.jpg" alt="img servicios">
+                </div>
+            </div>
+            <div class="servicios-check">
+                <ul>
+                    <li><i class="fa-solid fa-user-check"></i>Bathing and Dressing</li>
+                    <li><i class="fa-solid fa-user-check"></i>Meal Preparation and Feeding</li>
+                    <li><i class="fa-solid fa-user-check"></i>Toileting and Ligth housekeeping</li>
+                    <li><i class="fa-solid fa-user-check"></i>Companionships and Support</li>
+                    <li><i class="fa-solid fa-user-check"></i>Dementia Care</li>
+                    <li><i class="fa-solid fa-user-check"></i>Alzaimer Care</li>
+                </ul>
+                <ul>
+                    <li><i class="fa-solid fa-user-check"></i>Personal grooming/hygiene</li>
+                    <li><i class="fa-solid fa-user-check"></i>Transfers, Ambulation, Lifting</li>
+                    <li><i class="fa-solid fa-user-check"></i>Medication reminders</li>
+                    <li><i class="fa-solid fa-user-check"></i>Errands and Transportation</li>
+                    <li><i class="fa-solid fa-user-check"></i>Hospice</li>
+                    <li><i class="fa-solid fa-user-check"></i>Fall Prevention</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
 
 
+    <!--fin de  servicios-->
 
 
+    <!--INICIO BANNER 2-->
+    <div class="cont-banner-two">
+        <div class="img-ban-two">
+
+        </div>
+        <div class="text-bann-two">
+            <h3>Patients are admitted for treatment without regard to race, color, religion, national, origin, age, sex
+                or handicap.</h3>
+        </div>
+    </div>
+
+    <!--FINAL BANNER 2-->
+
+    <!--INICIO DE GALERIA-->
+    <div class="cont-cards m-t" id="galeria">
+        <h1>Caregivers Play Many Roles</h1>
+        <div class="cards">
+            <div class="card">
+                <div class="img-card">
+                    <img src="img/card1.JPG" alt="card1">
+                </div>
+                <div class="text-card">
+                    <h2>Provide healthy nutrition</h2>
+                    <p>Most people eat less as they age. For this reason, it is necessary for older adults to have a
+                        balanced diet that provides macronutrients (carbohydrates, proteins and fats), micronutrients
+                        (vitamins, minerals and antioxidants) and fiber.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-card">
+                    <img src="img/card2.jpg" alt="card1">
+                </div>
+                <div class="text-card">
+                    <h2>Promote physical activity</h2>
+                    <p>Physical exercise in the elderly offers multiple benefits not only at a physical level, such as
+                        improved cardiorespiratory and muscular functions or bone health, but also at a mental and
+                        socio-affective level, to feel more energy and reduce the risk of depression.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-card">
+                    <img src="img/card3.JPG" alt="card1">
+                </div>
+                <div class="text-card">
+                    <h2>Stimulate cognitive capacity</h2>
+                    <p>Very often, the cognitive abilities of the elderly deteriorate progressively, especially memory,
+                        perception and attention. To prevent or delay this deterioration, specialists advise cognitive
+                        stimulation.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-card">
+                    <img src="img/card4.JPG" alt="card1">
+                </div>
+                <div class="text-card">
+                    <h2>Take precautions to prevent falls</h2>
+                    <p>Falls are the leading cause of hospitalization and trauma-related deaths in the elderly.
+                        Therefore, it is of utmost importance to make changes in the structure of the home to meet the
+                        demands of aging.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--FINAL DE GALERIA-->
 
 
+    <!--INICIO DE CONTACTO-->
+    <div class="cont-contacto m-t" id="contacto">
+        <h2>Contact</h2>
+        <div class="redes">
+            <ul>
+                <li><a href="https://wa.me/17038695537"><i class="fa-brands fa-whatsapp"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        <div class="contacto">
+            <div class="mapa" id="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7390.192310335722!2d-77.3641113349424!3d38.850936393425364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b64f6db06b2143%3A0x302befd16dbb6c5c!2s4462%20Holly%20Ave%2C%20Fairfax%2C%20VA%2022030%2C%20EE.%20UU.!5e0!3m2!1ses-419!2spe!4v1666732381166!5m2!1ses-419!2spe"
+                    width="100%" height="350px" style="border-radius:25px;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="cont">
+                <ul>
+                    <li><i class="fa-solid fa-phone"></i><a href="tel:703-400-7219">703-400-7219</a> <span>|</span><a
+                            href="tel:7038695537">703-869-5537</a> </li>
+
+                    <li><i class="fa-solid fa-envelope"></i><a
+                            href="mailto:brita.homecare@gmail.com">brita.homecare@gmail.com</a></li>
+
+                    <li><i class="fa-solid fa-location-dot"></i></i><a href="https://goo.gl/mapst1Ute9WtmfuwqVdV9">4462
+                            Holly ave Fairfax VA 20130</a></li>
 
 
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--FIN  DE CONTACTO-->
+
+    <!--INICIO DE FOOTER-->
+    <div class="cont-footer">
+        <div class="logo-foot">
+            <img src="img/Logo2.png" alt="">
+        </div>
+        <div class="text-footer">
+            <small>2022 Brita Home Care Service. All right reserved.</small>
+        </div>
+    </div>
+    <!--FINAL DE FOOTER-->
+
+    <!--INICIO DE CONSULTA-->
 
 
+    <!--FIN DE CONSULTA-->
 
-
-
-
-
-
-
-
-
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  
-  <script src="JS/main.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="js/efecto.js"></script>
-
-  <!-- <script>
-    $(document).ready(function () {
-      $.fn.snow({
-        maxSize: 10,
-        
-      });
-
-    });
-  </script> -->
-
-  <script src="js/scrollreveal.js"></script>
-  <script>
-    AOS.init({
-      duration: 1200,
-      once: true
-    });
-  </script>
 </body>
+<script src="https://kit.fontawesome.com/bdfdcab8fb.js" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script src="JS/index.js"></script>
 
 </html>
